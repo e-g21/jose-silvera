@@ -1,0 +1,393 @@
+
+@media only screen and (min-width:0px) and (max-width:500px) {
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+display: none;
+}
+/*HEADER*/
+.Followus, .contact {
+display: none;
+}
+.header__main.navbar-me.back.container-fluid {
+    height: 10vh;
+}
+.responsive-menu-btn {
+    height: 50px !important;
+    }
+.responsive-menu-btn svg {
+    top: 18%!important;
+}
+.logo {
+    display: flex;
+    position: absolute;
+    height: 100%;
+}
+.header-logo {
+padding: 5px 10px;
+}
+.header-contact {
+justify-content: end;
+}
+.hour {
+margin-left: 10px;
+}
+.info-xs {
+position: relative;
+flex-direction: column;
+padding: 0px 10px;
+width: 100%;
+}
+.info-xs-1 h1:before {
+margin-top: inherit !important;
+top: -30px;
+ }
+ .formulario{
+    background: #f6f6f6  !important;
+ }
+ .formulario input, .formulario textarea {
+    background: transparent;
+
+    }
+.formulario h3.blue {
+font-size: 16px;
+}
+.header-info {
+margin-bottom: 29pc;
+height: 65vh;
+}
+.header-info video {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.info-xs-1 h1 {
+margin-bottom: inherit !important;
+font-size: 38px;
+margin-top: 8pc;
+
+}
+.info-xs-1 h4 {
+display: none;
+}
+.info-xs-2 {
+    position: absolute;
+    top: 16pc;
+    padding: 0 35px;
+}
+/*SECTION ABOUT*/
+.about-right {
+order: 1;
+}
+.about-left {
+order: 2;
+}
+section.about {
+flex-direction: column;
+padding: 0 10px;
+}
+span.icon-hammer {
+display: none;
+bottom: 0;
+right: 0!important;
+}
+/*Company*/
+section.info-empresa {
+background: #f9f9f9;
+padding: 0 !important;
+}
+.info-empresa .row {
+flex-direction: column;
+width: 100%;
+}
+.col-6.company-left {
+flex: inherit;
+max-width: inherit;
+padding: 39px;
+width: 96%;
+}
+.col-4.company-rigth {
+flex: inherit;
+max-width: inherit;
+padding: 35px 60px 100px 60px;
+width: 96%;
+}
+/*PROJECTS*/
+section.project {
+padding: 47px 45px  !important;
+}
+/*TESTIMONILS*/
+section.testimonials {
+height: 116vh !important;
+padding: 0 !important;
+}
+.mak-testimonio {
+margin: 0!important;
+height: 100%;
+}
+section.testimonials .img-client {
+object-position: unset!important;
+}
+.position-client {
+flex-direction: column;
+}
+.info-testimonio p {
+font-size: 20px  !important;
+}
+.modal-testimonios {
+position: relative;
+margin-top: 34px;
+margin-bottom: 65px;
+}
+
+/*SOCIAL*/
+section.social {
+padding: 40px 10px!important;
+}
+.subscribe {
+flex-direction: column;
+}
+/*footer*/
+.footer-menu {
+padding-right: 0rem  !important;
+}
+
+.footer-menu {
+flex-direction: column;
+}
+}
+
+@media screen and (min-width: 500px) {
+
+.logo {
+    display: flex;
+    position: absolute;
+    height: 100%;
+}
+.header-logo {
+padding: 5px 100px;
+}
+.header-contact{
+justify-content: space-around;
+}
+.hour {
+    position: absolute;
+    right: 0;
+}
+
+.info-xs-1 h1 {
+font-size: 55px;
+}
+
+  .mak-testimonio {
+
+bottom: 0; }
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info-xs-1 h1 {
+    font-size: 29px;
+}
+.info-xs-1 h4 {
+    font-size: 10px;
+}
+ }
+ @media only screen and (min-width:501px) and (max-width:768px){
+    .Followus, .contact {
+        display: none;
+    }
+    .info-xs {
+        padding: 0 20px;
+        margin-top: 220px;
+    }
+    .info-xs-1 {
+        margin-right: 25px;
+    }
+    .info-xs-1 h4 {
+        font-size: 18px;
+    }
+    .info-xs-1 h1:before {
+        margin-top: 8.5pc !important;
+    }
+    .header-info {
+        height: 135vh;
+    }
+    section.about {
+        padding: 0px 15px;
+    }
+    section.info-empresa, section.project, section.testimonials, section.social {
+        padding: 65px 15px  !important;
+    }
+    .col-4.company-rigth {
+        flex: 0 0 45%  !important;
+        max-width: 45% !important;
+    }
+    section.testimonials .img-client {
+        object-position: unset !important ;
+    }
+    section.testimonials {
+        height: 100vh !important;
+    }
+    .mak-testimonio {
+        padding: 0 12px !important;
+        margin: 65px 14px !important;
+    }
+    .footer-menu {
+        padding-right: 6rem !important;
+    }
+ }
+ @media only screen and (min-width:769px) and (max-width:1024px){
+    .information {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0 65%;
+    }
+    .logo {
+        width: 20%;
+    }
+    .container-fluid {
+        height: 10vh;
+    }
+    .responsive-menu-btn svg {
+        top: 5% !important;
+    }
+    .Followus-icons {
+        display: flex;
+    }
+    .hour {
+        margin-left: 6px;
+    }
+    .header-logo {
+        padding: 5px 40px;
+    }
+    .header-info {
+        height: 120vh;
+    }
+    .info-xs {
+        padding: 8px 50px;
+        margin-top: 3pc;
+    }
+    .info-xs-2 {
+        margin-top: 78px;
+        flex: 0 50%;
+        max-width: 50%;
+    }
+    .info-xs-1 h1 {
+        font-size: 35px;
+    }
+    .info-xs-1 h4 {
+        font-size: 15px;
+    }
+    .info-xs-1 h1:before {
+        display: none;
+    }
+    .info-xs-1 {
+        flex: 0 50%;
+        max-width: 50%;
+        margin-right: 28px;
+    }
+    section.about{
+        padding: 0 40px;
+    }
+    section.info-empresa, section.testimonials, section.project, section.social {
+        padding: 85px 40px !important;
+    }
+    section.testimonials {
+        height: 103vh !important;
+    }
+    section.testimonials .img-client {
+        object-position: unset!important;
+    }
+    .info-testimonio {
+        margin-right: 25px;
+    }
+    .mak-testimonio {
+        margin: 84px 40px !important;
+        padding: 0 120px !important;
+    }
+}
+
+
+
+ @media (min-width: 1025px) {
+.responsive-menu-btn {
+display: none; } }
+.nav__menu {
+position: fixed;
+display: flex;
+flex-direction: column;
+top: 0;
+background: #fff;
+left: 0;
+width: 120%;
+height: 100vh;
+justify-content: center;
+transform: translate(-100%, 0);
+transition: transform 0.2s linear;}
+.nav__menu.--is-open {
+transform: translate(0, 0); }
+.nav__menu > a {
+text-transform: uppercase;
+padding: 2rem;
+text-decoration: none;
+color: white;
+font-size: 15px; }
+
+@media (min-width: 1025px) {
+.nav__menu {
+width: 100%;
+display: flex;
+flex-direction: row;
+background: none;
+border-right: none;
+position: static;
+margin-left: auto;
+height: auto;
+transform: translate(0, 0);
+align-items: center; }
+.nav__menu.--is-open {
+display: flex;
+width: 100%;
+} }
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    .info-xs-1 h4 {
+        font-size: 19px;
+    }
+    .info-xs-1 h1 {
+        font-size: 50px;
+    }
+    .info-xs-1 h1:before {
+        margin-top: 9.5pc !important;
+    }
+    .info-xs-2 {
+        flex: 0 30%;
+    }
+    .header-info {
+        height: 110vh;
+        }
+        .info-xs {
+            margin-top: 9pc;
+        }
+    .info-xs-1 {
+        max-width: 50%;
+        margin-right: 15px;
+    }
+    section.about {
+        padding: 0 140px;
+    }
+    .info-testimonio {
+        max-width: 35%;
+    }
+    .hour-logo {
+        flex: 0 35%;
+    }
+    .information {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 0 49%;
+    }
+    
+}
